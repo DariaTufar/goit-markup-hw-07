@@ -1,5 +1,5 @@
 
-* --------------------ПОСТОЯННІЕ КЛИЕНТІ ---------------------------*/
+// * --------------------ПОСТОЯННІЕ КЛИЕНТІ ---------------------------*/
 .clients {
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
-    font-family: 'Roboto';
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -27,6 +27,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
+    
 }
 
 .clients-item{
