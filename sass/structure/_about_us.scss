@@ -10,6 +10,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .about-us-item{
     width: 270px;
 }
@@ -86,7 +87,7 @@
     align-items: center;
     position: absolute;
     bottom: 0;
-    color: #FFFFFF;
+    color: var(--primary-white-color);
     background-color: var(--black-gray-transparent);
     
     padding-top:  27px;
