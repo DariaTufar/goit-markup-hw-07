@@ -259,22 +259,22 @@ img {
 }
 
 /* ------------------------------НАШИ ПРЕИМУЩЕСТВА------------------- */
-.about-us {
+.about {
   background-color: var(--primary-white-color);
   padding-bottom: 0;
 }
 
-.about-us-list {
+.about__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.about-us-item {
+.about__item {
   width: 270px;
 }
 
-.about-us-box {
+.about__box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -282,14 +282,14 @@ img {
   background-color: var(--background-gray);
 }
 
-.about-us-icon {
+.about__icon {
   align-items: center;
   justify-content: center;
   background-color: var(--background-gray);
   border-radius: 4px;
 }
 
-.about-us-title {
+.about__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -299,7 +299,7 @@ img {
   color: var(--title-text-color);
 }
 
-.about-us-text {
+.about__text {
   margin-top: 10px;
   font-size: 14px;
   line-height: 1.71;

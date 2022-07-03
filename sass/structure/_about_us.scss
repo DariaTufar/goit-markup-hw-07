@@ -1,20 +1,20 @@
 /* ------------------------------НАШИ ПРЕИМУЩЕСТВА------------------- */
 
-.about-us {
+.about {
     background-color: var(--primary-white-color);
     padding-bottom: 0;
 }
 
-.about-us-list {
+.about__list {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.about-us-item{
+.about__item{
     width: 270px;
 }
-.about-us-box{
+.about__box{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,14 +22,14 @@
     background-color:  var(--background-gray)
 }
 
-.about-us-icon{
+.about__icon{
     align-items: center;
     justify-content: center;
     background-color:  var(--background-gray);
     border-radius: 4px;
 }
 
-.about-us-title {
+.about__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -39,7 +39,7 @@
     color: var(--title-text-color);
 }
 
-.about-us-text {
+.about__text {
     margin-top: 10px;
 
     font-size: 14px;
@@ -50,46 +50,3 @@
     color: var(--primary-text-color);
 }
 
-.our-work-title {
-    margin-bottom: 50px;
-    
-    font-weight: 700;
-    font-size: 36px;
-    min-height: 42px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    
-    color: var(--title-text-color);
-}
-
-.our-work-list {
-    display: flex; 
-    justify-content: space-between;
-}
-.our-work-item{
-    display: flex;
-    position: relative;
-}
-
-.our-work-descr {
-    width: 100%;
-    font-family: 'Roboto';
-
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 0;
-    color: var(--primary-white-color);
-    background-color: var(--black-gray-transparent);
-    
-    padding-top:  27px;
-    padding-bottom: 27px;
-}
