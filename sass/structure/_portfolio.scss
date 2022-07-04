@@ -1,16 +1,16 @@
  
 // ----------------PORTFOLIO-------------- */
 
-.portfolio-filter-list {
+.portfolio-filter__list {
     display: flex;
     justify-content: center;
 }
 
-.portfolio-filter-item+.portfolio-filter-item{
+.portfolio-filter__item+.portfolio-filter__item{
     margin-left: 8px;
 }
 
-.portfolio-filter-btn {
+.portfolio-filter__btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -39,7 +39,7 @@
     background-color: var(--accent-color);
 }
 
-.portfolio-examples-list{
+.portfolio-examples__list{
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
@@ -48,7 +48,7 @@
 }
 
 
-.portfolio-examples-item {
+.portfolio-examples__item {
     display: flex;
     background-color: var(--primary-white-color);
     position: relative;
@@ -75,19 +75,19 @@
     }
 }
 
-.portfolio-examples-foto {
+.portfolio-examples__foto {
     display: block;
     height: auto;
 }
 
-.portfolio-examples-topwrap{
+.portfolio-examples__topwrap{
     position: relative;
     overflow: hidden;
 }
 
 
 
-.portfolio-examples-toptext{
+.portfolio-examples__toptext{
     top: 0;
     position: absolute;
     height: 100%;
@@ -103,20 +103,20 @@
     color: var(--primary-white-color);
     background: rgba(33, 150, 243, 0.9);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    .portfolio-examples-item:hover  &{
+    .portfolio-examples__item:hover  &{
         transform: translateY(0);
     }
 }
 
 
-.portfolio-examples-text {
+.portfolio-examples__text {
     padding: 20px 24px 20px 24px;
     border-left: var(--border-color-1px-solid);
     border-right: var(--border-color-1px-solid);
     border-bottom: var(--border-color-1px-solid);
 }
 
-.portfolio-examples-title {
+.portfolio-examples__title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -128,7 +128,7 @@
     
 }
 
-.portfolio-examples-descr {
+.portfolio-examples__descr {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
